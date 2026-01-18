@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "item",
+          "name": "allay_spawn_egg",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": "昇天床"
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{TUSR:{},EntityTag:{id:\"allay\",ArmorItems:[{},{},{},{id:\"stick\",Count:1b,tag:{CustomModelData:1,TrapCondition:\"TeleportSign\"}}],DeathLootTable:\"tusr:items/teleport_sign\"}}"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "乗ると転移印判と同じ効果を得る"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

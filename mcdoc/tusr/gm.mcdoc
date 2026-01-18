@@ -1,0 +1,36 @@
+dispatch minecraft:storage[tusr:gm] to struct GameMaster {
+  /// トラップアイテムを配布する個数
+  Give: struct {
+    /// 基本の配布個数
+    Default: int @ 0..,
+    /// 1位の配布個数
+    First: int @ 0..,
+    /// 2位の配布個数
+    Second: int @ 0..,
+    /// 3位の配布個数
+    Third: int @ 0..,
+  },
+  /// 各フェーズの時間
+  /// 実際の設定時間は 10tickあたりなのでこの倍
+  PhaseTime: struct {
+    /// トラップ準備フェーズ
+    Trap: int @ 0..,
+    /// カウントダウンフェーズ
+    Countdown: int @ 0..,
+    /// レースフェーズ
+    Race: int @ 0..,
+    /// フィニッシュフェーズ
+    Finish: int @ 5..,
+  },
+  /// 設置したトラップが見える
+  GlowingTrap: Toggle
+}
+
+/// トグル要素
+/// boolと表示用テキストを持つ
+struct Toggle {
+  /// トグル状態
+  value: boolean,
+  /// GM本表示用
+  text: #[text_component] string
+}

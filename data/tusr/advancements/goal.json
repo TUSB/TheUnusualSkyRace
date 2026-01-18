@@ -1,0 +1,57 @@
+{
+  "display": {
+    "title": "空島神社 ゴール！！",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "icon": {
+      "item": "warped_fungus_on_a_stick",
+      "nbt": "{CustomModelData:2}"
+    },
+    "description": {
+      "translate": "空島神社に到着してゴールした！"
+    }
+  },
+  "criteria": {
+    "goal": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "position": {
+                "x": {
+                  "min": -800,
+                  "max": -773
+                },
+                "y": {
+                  "min": 94,
+                  "max": 101
+                },
+                "z": {
+                  "min": -778,
+                  "max": -768
+                }
+              }
+            }
+          },
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "gamemode": "adventure"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["goal"]],
+  "rewards": {
+    "function": "tusr:goal/"
+  }
+}

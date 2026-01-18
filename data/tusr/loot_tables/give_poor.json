@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "tusr:ranks/rank1",
+          "weight": 5
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:score",
+        "score": "TUSR.Give",
+        "target": "this"
+      }
+    },
+    {
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "tusr:items/stone_pickaxe"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "tusr:items/stone_axe"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "tusr:items/stone_shovel"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "tusr:items/shears"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "tusr:items/unique_floor_blocks"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/speed_up"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/teleport_sign"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/rotation_floor"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/water_bucket"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/common_bomb_spawner"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/tnt"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/firework"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/shotzo_spawner"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

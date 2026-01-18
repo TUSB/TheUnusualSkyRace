@@ -1,0 +1,13 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "item",
+          "name": "water_bucket"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

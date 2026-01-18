@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "tusr:items/restart"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/dungeon_rock_spawner"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/genocide_bomb"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/fluffy"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/salmon_susi"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/spawner_vase_spawner"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/piggybacking"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/lightning"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/anmin_special"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/sculk"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/firework_player"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

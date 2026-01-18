@@ -1,0 +1,13 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "item",
+          "name": "flint_and_steel"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

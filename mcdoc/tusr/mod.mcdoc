@@ -1,0 +1,10 @@
+dispatch minecraft:storage[tusr:] to struct {
+  /// 現在のフェーズ
+  phase: ("trap" | "countdown" | "race" | "finish"),
+  /// トラップアイテムの判別用
+  condition?: string,
+  /// プレイエリア
+  area: ("flying_island"),
+  /// 一時変数
+  temp: any,
+}

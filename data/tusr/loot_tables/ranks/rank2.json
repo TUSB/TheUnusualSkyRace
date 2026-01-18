@@ -1,0 +1,45 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "tusr:items/unique_floor_destroy_bomb"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/shoot_player"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/effect_clear"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/igar_thorn_spawner"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/gravel_spawner"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/rolling_barrel_spawner"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/thorn_floor_trap_spawner"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/wither_rose"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/flint_and_steel"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

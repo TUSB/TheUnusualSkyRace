@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "item",
+          "name": "allay_spawn_egg",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": "ジャンプパッド"
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{TUSR:{},EntityTag:{id:\"allay\",ArmorItems:[{},{},{},{id:\"stick\",Count:1b,tag:{CustomModelData:1,TrapCondition:\"JumpPad\"}}],DeathLootTable:\"tusr:items/jump_pad\"}}"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "跳躍Ⅴを一瞬付与する"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

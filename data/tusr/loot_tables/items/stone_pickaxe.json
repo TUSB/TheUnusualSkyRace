@@ -1,0 +1,13 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "item",
+          "name": "stone_pickaxe"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

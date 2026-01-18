@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "item",
+          "name": "allay_spawn_egg",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": "滑り床"
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{TUSR:{},EntityTag:{id:\"allay\",ArmorItems:[{},{},{},{id:\"stick\",Count:1b,tag:{CustomModelData:1,TrapCondition:\"SpeedUp\"}}],DeathLootTable:\"tusr:items/speed_up\"}}"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "乗ると移動速度上昇が一瞬だけ付与される"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

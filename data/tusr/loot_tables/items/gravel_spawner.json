@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "item",
+          "name": "allay_spawn_egg",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": "砂利スポナー"
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{TUSR:{},EntityTag:{id:\"allay\",ArmorItems:[{},{},{},{id:\"stick\",Count:1b,tag:{CustomModelData:1,TrapCondition:\"GravelSpawner\"}}],DeathLootTable:\"tusr:items/gravel_spawner\"}}"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "砂利の落下ブロックが召喚されるスポナーを設置する"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

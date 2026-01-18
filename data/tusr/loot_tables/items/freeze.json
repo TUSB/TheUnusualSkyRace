@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "item",
+          "name": "allay_spawn_egg",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": "範囲凍結床"
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{TUSR:{},EntityTag:{id:\"allay\",ArmorItems:[{},{},{},{id:\"stick\",Count:1b,tag:{CustomModelData:1,TrapCondition:\"Freeze\"}}],DeathLootTable:\"tusr:items/freeze\"}}"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "半径5mにいるプレイヤーに凍結が付与される"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

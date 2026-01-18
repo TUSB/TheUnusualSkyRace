@@ -1,0 +1,13 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "item",
+          "name": "shears"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

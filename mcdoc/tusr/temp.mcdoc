@@ -1,0 +1,3 @@
+dispatch minecraft:storage[tusr:temp] to struct {
+  Toggle: super::gm::Toggle
+}

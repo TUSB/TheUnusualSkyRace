@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "tusr:items/lava_bucket"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/confuse"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/collapse"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/landmine"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/decoy_teleport_pot_spawner"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/poison_floor_trap_spawner"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/exchange"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/firework_inf"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/heavenly_messenger_spawner"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/freeze"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

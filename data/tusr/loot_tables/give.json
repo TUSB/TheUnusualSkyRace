@@ -1,0 +1,74 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "tusr:ranks/rank1",
+          "weight": 5
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:ranks/rank2",
+          "weight": 4
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:ranks/rank3",
+          "weight": 3
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:ranks/rank4",
+          "weight": 2
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:ranks/rank5",
+          "weight": 1
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:score",
+        "score": "TUSR.Give",
+        "target": "this"
+      }
+    },
+    {
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "tusr:items/stone_pickaxe"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "tusr:items/stone_axe"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "tusr:items/stone_shovel"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "tusr:items/shears"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

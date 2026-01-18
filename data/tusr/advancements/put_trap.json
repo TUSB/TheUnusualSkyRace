@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "put": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "nbt": "{TUSR:{}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tusr:trap/put"
+  }
+}

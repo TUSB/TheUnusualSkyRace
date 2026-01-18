@@ -1,0 +1,18 @@
+{
+  "env": {
+    "dependencies": [
+      "@vanilla-datapack",
+      "@vanilla-resourcepack",
+      "@vanilla-mcdoc",
+      "file:///C:/Users/nepon/minecraft/client/1.19.4/saves/TheUnusualSkyBlock v13.2.5α2_TUSR/datapacks/TheUnusualSkyBlock",
+      "file:///C:/Users/nepon/minecraft/client/1.19.4/saves/TheUnusualSkyBlock v13.2.5α2_TUSR/resources.zip"
+    ],
+    "feature": {
+      "inlayHint": {
+        "enabledNodes": [
+          "mcfunction:command_child/unknown"
+        ]
+      }
+    }
+  }
+}

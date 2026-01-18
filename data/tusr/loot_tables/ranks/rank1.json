@@ -1,0 +1,21 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "tusr:items/jump_pad"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/cobweb"
+        },
+        {
+          "type": "loot_table",
+          "name": "tusr:items/white_wool"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}
