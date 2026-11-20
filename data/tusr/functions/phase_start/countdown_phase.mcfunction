@@ -6,6 +6,7 @@ execute store result bossbar tusr:timer max run scoreboard players get $Countdow
 bossbar set tusr:timer name {"translate":"レース準備……"}
 bossbar set tusr:timer color yellow
 bossbar set tusr:timer style notched_10
+bossbar set tusr:timer players
 bossbar set tusr:timer players @a
 
 # タイトル設定

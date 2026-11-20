@@ -6,6 +6,7 @@ execute store result bossbar tusr:timer max run scoreboard players get $RacePhas
 bossbar set tusr:timer name [{"translate":"第 %1$s/10 ラウンド ","with":[{"score":{"name":"#","objective":"TUSR.RacePoint"}}]},{"translate":"レースフェーズ"}]
 bossbar set tusr:timer color purple
 bossbar set tusr:timer style notched_6
+bossbar set tusr:timer players
 bossbar set tusr:timer players @a
 
 # 解放
