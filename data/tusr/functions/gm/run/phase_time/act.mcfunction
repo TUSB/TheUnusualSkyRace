@@ -6,9 +6,9 @@ execute if score @s TUSR.GM matches 100..101 if score $TrapPhase TUSR.Timer < $C
 execute if score @s TUSR.GM matches 100..101 store result storage tusr:gm PhaseTime.Trap int 0.5 run scoreboard players get $TrapPhase TUSR.Timer
 execute if score @s TUSR.GM matches 100..101 run tellraw @a [{"translate":"<%s>","with":[{"selector":"@s"}]}," ",{"translate":"トラップ準備フェーズを %1$s秒にしました。","with":[{"storage":"tusr:gm","nbt":"PhaseTime.Trap"}]}]
 
-execute if score @s TUSR.GM matches 110 run scoreboard players remove $CountdownPhase TUSR.Timer 20
-execute if score @s TUSR.GM matches 111 run scoreboard players add $CountdownPhase TUSR.Timer 20
-execute if score @s TUSR.GM matches 110..111 if score $CountdownPhase TUSR.Timer matches ..-1 run scoreboard players set $CountdownPhase TUSR.Timer 0
+execute if score @s TUSR.GM matches 110 run scoreboard players remove $CountdownPhase TUSR.Timer 2
+execute if score @s TUSR.GM matches 111 run scoreboard players add $CountdownPhase TUSR.Timer 2
+execute if score @s TUSR.GM matches 110..111 if score $CountdownPhase TUSR.Timer matches ..0 run scoreboard players set $CountdownPhase TUSR.Timer 2
 execute if score @s TUSR.GM matches 110..111 store result storage tusr:gm PhaseTime.Countdown int 0.5 run scoreboard players get $CountdownPhase TUSR.Timer
 execute if score @s TUSR.GM matches 110..111 run tellraw @a [{"translate":"<%s>","with":[{"selector":"@s"}]}," ",{"translate":"カウントダウンフェーズを %1$s秒にしました。","with":[{"storage":"tusr:gm","nbt":"PhaseTime.Countdown"}]}]
 
