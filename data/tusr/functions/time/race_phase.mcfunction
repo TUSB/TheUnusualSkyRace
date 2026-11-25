@@ -4,7 +4,7 @@ execute if score $World TUSR.Timer = $RacePhase TUSR.Timer run function tusr:pha
 
 function tusr:time/common
 
-execute store success score _ _ if entity @a[tag=!Spectator,advancements={tusr:goal=false}]
+execute store success score _ _ if entity @a[tag=!Spectator,advancements={tusr:goal=false},gamemode=adventure]
 execute if score _ _ matches 0 run scoreboard players set $World TUSR.Timer 1
 
 # 鳥居テレポート
